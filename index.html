@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./assets/img/Logo Turue Eatery.png" alt="" height="24px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#heroSlider">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reservation">Reservation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">Blog</a>
+            </li>
+          </ul>
+          <a href="#" class="btn btn-brand"> Order Online </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CAROUSELS HERO SLIDER -->
+    <div id="heroSlider" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Slide1 -->
+        <div class="carousel-item text-center vh-100 active slide-1 bg-cover">
+          <div
+            class="container h-100 d-flex align-items-center justify-content-center text-center"
+          >
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">WELCOME TO TURUE EATERY</h6>
+                <h1 class="display-1 fw-bold text-white">
+                  Char-Grilled and Flavor-Filled
+                </h1>
+                <a href="#" class="btn btn-brand">Reservation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide2 -->
+        <div class="carousel-item text-center vh-100 slide-2 bg-cover">
+          <div
+            class="container h-100 d-flex align-items-center justify-content-center text-center"
+          >
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <h6 class="text-white">WELCOME TO TURUE EATERY</h6>
+                <h1 class="display-1 text-white">Fresh and Tasty Food</h1>
+                <a href="#" class="btn btn-brand">Reservation</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#heroSlider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#heroSlider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="container">
+        <div class="row gy-4 align-items-center">
+          <div class="col-lg-5">
+            <img src="./assets/img/table.jpg" alt="" />
+          </div>
+          <div class="col-lg-5">
+            <h1>About Us</h1>
+            <div class="divider my-4"></div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non
+              recusandae quos dolore iusto nulla voluptas eius reiciendis,
+              officia, praesentium sapiente earum necessitatibus. Ea reiciendis
+              doloribus ex pariatur aspernatur, quasi maiores.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+              dolorem ad distinctio voluptatem in quam temporibus dignissimos
+              reprehenderit minima placeat itaque similique alias corrupti,
+              autem cumque cum mollitia dicta facilis.
+            </p>
+            <a href="#" class="btn btn-brand">Explore Menu </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section id="menu" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1>Explore Our Menu</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              porro accusantium quidem tenetur explicabo, et architecto earum
+              aperiam nisi!
+            </p>
+          </div>
+        </div>
+
+        <!-- Button for scrolling -->
+        <ul
+          class="nav nav-pills mb-5 justify-content-center"
+          id="pills-tab"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-all-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-all"
+              type="button"
+              role="tab"
+              aria-controls="pills-all"
+              aria-selected="true"
+            >
+              All
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-breakfast-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-breakfast"
+              type="button"
+              role="tab"
+              aria-controls="pills-breakfast"
+              aria-selected="true"
+            >
+              Breakfast
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-lunch-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-lunch"
+              type="button"
+              role="tab"
+              aria-controls="pills-lunch"
+              aria-selected="true"
+            >
+              Lunch
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-dinner-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-dinner"
+              type="button"
+              role="tab"
+              aria-controls="pills-dinner"
+              aria-selected="true"
+            >
+              Dinner
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-all"
+            role="tabpanel"
+            aria-labelledby="pills-all-tab"
+            tabindex="0"
+          >
+            <div class="row gy-4">
+              <!-- breakfast1 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/breakfast1.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Nasi Goreng</a></h5>
+                    <p class="small">
+                      Rice dishes with eggs and vegetables using premium and
+                      quality ingredients
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- breakfast2 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/breakfast2.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Simon Rimmer caramel salmon </a>
+                    </h5>
+                    <p class="small">
+                      Tasty caramel salmon with chillies, egg noodles and crispy
+                      onions
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- breakfast3 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/breakfast3.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Sweet Pancakes with natural honey</a>
+                    </h5>
+                    <p class="small">
+                      Strawberries and Nutella, Blueberries and syrup, bananas.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- breakfast4 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/breakfast5.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Japanese Ramen</a>
+                    </h5>
+                    <p class="small">
+                      Discover the art of ramen. Handmade noodles and quality
+                      ingredients.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- lunch1 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/lunch1.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.8)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Rocks Hamburger</a></h5>
+                    <p class="small">
+                      Crispy bacon, melted cheese with juicy, cheesy, and
+                      satisfying
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- lunch2 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/lunch2.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Special Sandwich with Bacon</a>
+                    </h5>
+                    <p class="small">
+                      Fresh bread, quality meats. Soft, crunchy, and flavorful.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--  lunch3 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/lunch3.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Pork Steak</a></h5>
+                    <p class="small">
+                      Savor a pork steak. Seasoned, grilled, and served with
+                      sides.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- lunch4 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/lunch5.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Beef Steak</a></h5>
+                    <p class="small">
+                      Beef steak: A premium cut of meat. Tender and tasty.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- dinner1 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/dinner1.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">British Seafood</a></h5>
+                    <p class="small">High in protein and omega-3.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- dinner2 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/dinner5.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Oven Baked Pork Chops</a>
+                    </h5>
+                    <p class="small">
+                      Rubbed with garlic and honey. Oven roasted and glazed with
+                      sauce.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- dinner3 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/dinner3.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Evening avocado sprout toast</a>
+                    </h5>
+                    <p class="small">
+                      Creamy avocado, crunchy sprouts, and toasted bread.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--  dinner4 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/dinner4.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Nasi Goreng</a></h5>
+                    <p class="small">
+                      Rice dishes with eggs and vegetables using premium and
+                      quality ingredients
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Breakfast -->
+          <div
+            class="tab-pane fade show"
+            id="pills-breakfast"
+            role="tabpanel"
+            aria-labelledby="pills-breakfast-tab"
+            tabindex="0"
+          >
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/breakfast1.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Nasi Goreng</a></h5>
+                    <p class="small">
+                      Rice dishes with eggs and vegetables using premium and
+                      quality ingredients
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/breakfast2.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Simon Rimmer caramel salmon </a>
+                    </h5>
+                    <p class="small">
+                      Tasty caramel salmon with chillies, egg noodles and crispy
+                      onions
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/breakfast3.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Sweet Pancakes with natural honey</a>
+                    </h5>
+                    <p class="small">
+                      Strawberries and Nutella, Blueberries and syrup, bananas.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--  -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/breakfast5.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Japanese Ramen</a>
+                    </h5>
+                    <p class="small">
+                      Discover the art of ramen. Handmade noodles and quality
+                      ingredients.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Lunch -->
+          <div
+            class="tab-pane fade show"
+            id="pills-lunch"
+            role="tabpanel"
+            aria-labelledby="pills-lunch-tab"
+            tabindex="0"
+          >
+            <div class="row gy-4">
+              <!-- lunch1 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/lunch1.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.8)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Rocks Hamburger</a></h5>
+                    <p class="small">
+                      Crispy bacon, melted cheese with juicy, cheesy, and
+                      satisfying
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- lunch2 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/lunch2.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Special Sandwich with Bacon</a>
+                    </h5>
+                    <p class="small">
+                      Fresh bread, quality meats. Soft, crunchy, and flavorful.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--  lunch3 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/lunch3.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Pork Steak</a></h5>
+                    <p class="small">
+                      Savor a pork steak. Seasoned, grilled, and served with
+                      sides.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- lunch4 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/lunch5.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Beef Steak</a></h5>
+                    <p class="small">
+                      Beef steak: A premium cut of meat. Tender and tasty.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Dinner -->
+          <div
+            class="tab-pane fade show"
+            id="pills-dinner"
+            role="tabpanel"
+            aria-labelledby="pills-dinner-tab"
+            tabindex="0"
+          >
+            <div class="row gy-4">
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/dinner1.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">British Seafood</a></h5>
+                    <p class="small">High in protein and omega-3.</p>
+                  </div>
+                </div>
+              </div>
+              <!-- dinner2 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/dinner5.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Oven Baked Pork Chops</a>
+                    </h5>
+                    <p class="small">
+                      Rubbed with garlic and honey. Oven roasted and glazed with
+                      sauce.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- dinner3 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/dinner3.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2">
+                      <a href="#">Evening avocado sprout toast</a>
+                    </h5>
+                    <p class="small">
+                      Creamy avocado, crunchy sprouts, and toasted bread.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!--  dinner4 -->
+              <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                  <img src="./assets/img/dinner4.jpg" alt="" />
+                  <div class="menu-item-content p-3">
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                      <span>(4.5)</span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Nasi Goreng</a></h5>
+                    <p class="small">
+                      Rice dishes with eggs and vegetables using premium and
+                      quality ingredients
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="bg-color">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1 class="text-white">Why to choose us?</h1>
+            <p class="text-white">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consequuntur similique eum tempore quas porro sed. Odio omnis
+              soluta ad voluptatem a ex atque assumenda. Amet vel quas modi
+              doloremque nobis?
+            </p>
+          </div>
+        </div>
+        <div class="row gy-3">
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature py-5 px-4 text-center">
+              <div class="feature-icon">
+                <i class="ri-wifi-fill"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2">Free Wifi</h4>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                dolorum corrupti. Placeat iusto minima ab sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature py-5 px-4 text-center">
+              <div class="feature-icon">
+                <i class="ri-timer-flash-fill"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2">Fast Delivery</h4>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                dolorum corrupti. Placeat iusto minima ab sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature py-5 px-4 text-center">
+              <div class="feature-icon">
+                <i class="ri-user-heart-fill"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2">Friendly Staff</h4>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                dolorum corrupti. Placeat iusto minima ab sed.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="feature py-5 px-4 text-center">
+              <div class="feature-icon">
+                <i class="ri-star-fill"></i>
+              </div>
+              <h4 class="text-white mt-4 mb-2">Highly Rated</h4>
+              <p class="text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                dolorum corrupti. Placeat iusto minima ab sed.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1>Our Team Members</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
+              sunt nesciunt obcaecati voluptas sapiente veritatis saepe earum
+              error, dolore magni ipsam quidem velit laboriosam sit iure?
+              Laborum iusto dicta repellendus.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-lg-3 col-sm-6">
+              <div
+                class="team-member px-4 py-3 border shadow-on-hover text-center"
+              >
+                <img src="./assets/img/chef1.jpg" alt="" />
+                <h4 class="mt-4 mb-2">Jon Tredeu</h4>
+                <div class="mb-0">Main Chef</div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div
+                class="team-member px-4 py-3 border shadow-on-hover text-center"
+              >
+                <img src="./assets/img/chef2.jpg" alt="" />
+                <h4 class="mt-4 mb-2">Simon Cavellary</h4>
+                <div class="mb-0">Chef Assistance</div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div
+                class="team-member px-4 py-3 border shadow-on-hover text-center"
+              >
+                <img src="./assets/img/chef3.jpg" alt="" />
+                <h4 class="mt-4 mb-2">Tim Cassa</h4>
+                <div class="mb-0">Chef Assistance</div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div
+                class="team-member px-4 py-3 border shadow-on-hover text-center"
+              >
+                <img src="./assets/img/chef4.jpg" alt="" />
+                <h4 class="mt-4 mb-2">Jessica Freeze</h4>
+                <div class="mb-0">Chef Assistance</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review -->
+    <section id="reviews" class="bg-cover">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1 class="text-white">Our Client Saying</h1>
+            <p class="text-white">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+              molestias minus nobis rem dolores quisquam beatae quam.
+            </p>
+          </div>
+        </div>
+
+        <!-- carosel -->
+        <div id="reviewSlider" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#reviewSlider"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#reviewSlider"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="review bg-white p-5 text-center">
+                    <div class="quote-icon">
+                      <i class="ri-double-quotes-l"></i>
+                    </div>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eveniet commodi voluptates quasi repellat culpa
+                      perferendis expedita quidem exercitationem mollitia, saepe
+                      eaque modi. Quia modi architecto in sed amet. Recusandae,
+                      tempora!
+                    </p>
+                    <div class="person mt-4">
+                      <img src="./assets/img/person2.jpg" alt="" />
+                      <h4 class="mt-2 mb-0">Lucky Freshman</h4>
+                    </div>
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <div class="review bg-white p-5 text-center">
+                    <div class="quote-icon">
+                      <i class="ri-double-quotes-l"></i>
+                    </div>
+                    <p class="mb-0">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Eveniet commodi voluptates quasi repellat culpa
+                      perferendis expedita quidem exercitationem mollitia, saepe
+                      eaque modi. Quia modi architecto in sed amet. Recusandae,
+                      tempora!
+                    </p>
+
+                    <div class="person mt-4">
+                      <img src="./assets/img/person1.jpg" alt="" />
+                      <h4 class="mt-2 mb-0">Hannah McLurry</h4>
+                    </div>
+                    <div class="stars">
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-fill"></i>
+                      <i class="ri-star-half-fill"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#reviewSlider"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#reviewSlider"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation -->
+    <section id="reservation">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1>Reservation</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+            magnam fugiat, deserunt numquam inventore totam voluptatum
+            accusantium natus modi autem.
+          </div>
+          </p>
+        </div>
+        <form action="#" class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="row g-3">
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Full Name">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" placeholder="Email Address">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="date" class="form-control" placeholder="Date">
+              </div>
+              <div class="form-group col-md-6">
+                <input type="text" class="form-control" placeholder="Number of Person">
+              </div>
+              <div class="form-group col-12">
+                <textarea class="form-control" name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+              </div>
+              <div class="form-group col-12 text-center">
+                <a href="" class="btn btn-brand">
+                  Send
+                </a>
+              </div>
+            </div>
+          </div>
+        </form>
+        
+      </div>
+    </section>
+
+    <!-- Insta Post -->
+    <div class="row g-0">
+      <div class="col-lg-3 col-sm-6">
+        <div class="insta-post">
+          <img src="./assets/img/dinner1.jpg" alt="">
+          <a href="https://www.instagram.com/" class="insta-btn">
+            <i class="ri-instagram-fill"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="insta-post">
+          <img src="./assets/img/lunch1.jpg" alt="">
+          <a href="https://www.instagram.com/" class="insta-btn">
+            <i class="ri-instagram-fill"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="insta-post">
+          <img src="./assets/img/breakfast1.jpg" alt="">
+          <a href="https://www.instagram.com/" class="insta-btn">
+            <i class="ri-instagram-fill"></i>
+          </a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <div class="insta-post">
+          <img src="./assets/img/dinner3.jpg" alt="">
+          <a href="https://www.instagram.com/" class="insta-btn">
+            <i class="ri-instagram-fill"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Blog Post -->
+    <section id="blog">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 intro-text">
+            <h1>Our Writing</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit iste hic itaque doloremque eum id laboriosam, voluptate at debitis neque doloribus consectetur? Laborum incidunt voluptas dolorem ducimus provident culpa fuga.</p>
+          </div>
+        </div>
+        <div class="row gy-4">
+          <div class="col-sm-6">
+            <div class="blog-post d-flex">
+              <img src="./assets/img/lunch5.jpg" alt="">
+              <div class="blog-post-content p-4">
+                <p>Posted: February 10, 2023</p>
+                <h4><a href="#">How to make Delicious Lunch</a></h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatem esse</p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="blog-post d-flex">
+              <img src="./assets/img/breakfast2.jpg" alt="">
+              <div class="blog-post-content p-4">
+                <p>Posted: February 10, 2023</p>
+                <h4><a href="#">How to make Healty Dishes</a></h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatem esse</p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="blog-post d-flex">
+              <img src="./assets/img/breakfast3.jpg" alt="">
+              <div class="blog-post-content p-4">
+                <p>Posted: February 10, 2023</p>
+                <h4><a href="#">Honey for daily activity</a></h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatem esse</p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="blog-post d-flex">
+              <img src="./assets/img/lunch2.jpg" alt="">
+              <div class="blog-post-content p-4">
+                <p>Posted: February 10, 2023</p>
+                <h4><a href="#">How to make sandwich with Japanese salmon</a></h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatem esse</p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-cover">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img src="./assets/img/Logo Turue Eatery.png" class="mb-4" alt="">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit accusamus nihil vel cupiditate error adipisci maiores corrupti.</p>
+              <div class="social-links">
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+                <a href="#"><i class="ri-instagram-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-youtube-fill"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 ms-auto">
+              <h6 class="text-white mb-4 mt-3">CONTACT</h6>
+              <p class="mb-1">(+62)812 7890 0987</p>
+              <p class="mb-1">E: question@mail.com</p>
+              <p class="mb-0">Soekarno-Hatta St. 789</p>
+            </div>
+            <div class="col-lg-3">
+              <h6 class="text-white mb-4 mt-3">OPENING HOURS</h6>
+              <p class="mb-1">Mon-Fri 10.00 a.m- 10.00 p.m</p>
+              <p>Sat-Sun 09.00 a.m- 11.00 p.m</p>             
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-auto">
+              <p class="mb-0">Copyright all right reserved</p>
+            </div> <div class="col-auto">
+              <p class="mb-0">Designed by <a href="https://www.linkedin.com/in/joshualaoli/">JOSHUA LAOLI</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
